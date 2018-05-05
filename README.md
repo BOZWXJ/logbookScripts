@@ -9,8 +9,12 @@ ship_wikiOrder.js wikiOrder.js を script フォルダに入れてください�
 [艦隊これくしょん -艦これ- 攻略Wiki][2] [艦娘名一覧（艦種別）][3]
 
 ## remodel2
-所有艦娘一覧のリストに、改造レベル未満の時、改造レベルを表示する列を追加します。
+所有艦娘一覧のリストに、改造レベル未満の時、改造レベルを表示する列を追加します。  
 ship_remodel2.js を script フォルダに入れてください。
+
+## renos
+所有艦娘一覧のリストに、火力，雷装，対空，装甲の、成長の余地の合計を表示する列を追加します。  
+ship_renos.js を script フォルダに入れてください。
 
 [1]:http://nekopanda.blog.jp
 [2]:https://wikiwiki.jp/kancolle/
