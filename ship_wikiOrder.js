@@ -1,6 +1,5 @@
 load("script/utils.js");
 load("script/wikiOrder.js");
-Ship = Java.type("logbook.internal.Ship");
 
 function header() {
 	return [ "Wiki順" ];
