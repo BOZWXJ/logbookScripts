@@ -18,7 +18,7 @@ while (($line = $readFile.ReadLine()) -ne $null) {
     }
     else {
         $s = [regex]::Replace($line, "\s*/\s*", "`", `"")
-        $s = "`t`t`"" + $s.trim() + "`","
+        $s = "`t`t`"" + $s.trim().trim("?") + "`","
         $writeFile.WriteLine($s)
     }
 }
