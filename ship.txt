@@ -18,6 +18,7 @@ Iowa / Iowa改
 Warspite / Warspite改
 Гангут / Октябрьская революция / Гангут два
 Richelieu / Richelieu改
+Nelson / Nelson改
 
 ▲ ▼
 航空戦艦  Edit
@@ -64,6 +65,7 @@ Saratoga Mk.II Mod.2
 飛鷹 / 飛鷹改
 隼鷹 / 隼鷹改 / 隼鷹改二
 春日丸 / 大鷹 / 大鷹改 / 大鷹改二
+神鷹 / 神鷹改 / 神鷹改二
 千歳航 / 千歳航改 / 千歳航改二
 千代田航 / 千代田航改 / 千代田航改二
 鈴谷航改二
@@ -136,6 +138,11 @@ Pola / Pola改
 矢矧 / 矢矧改
 酒匂 / 酒匂改
 大淀 / 大淀改
+Gotland改
+
+▲ ▼
+軽(航空)巡洋艦  Edit
+Gotland
 
 ▲ ▼
 重雷装巡洋艦  Edit
@@ -261,6 +268,7 @@ Pola / Pola改
 藤波 / 藤波改
 浜波 / 浜波改
 沖波 / 沖波改
+岸波 / 岸波改
 朝霜 / 朝霜改
 早霜 / 早霜改
 清霜 / 清霜改
@@ -283,6 +291,7 @@ Z3 / Z3改 / Z3 zwei
 
 ▲ ▼
 Maestrale級  Edit
+Maestrale / Maestrale改
 Libeccio / Libeccio改
 
 ▲ ▼

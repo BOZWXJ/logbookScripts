@@ -6,9 +6,9 @@ $readFile = New-Object System.IO.StreamReader($name, [System.Text.Encoding]::Get
 $name = Join-Path $path "wikiOrder.js"
 $writeFile = New-Object System.IO.StreamWriter($name, $false, [System.Text.Encoding]::GetEncoding("utf-8"))
 
-$s = "function shipsList() {`n`tvar ships = ["
-$writeFile.WriteLine($s)
-while (($line = $readFile.ReadLine()) -ne $null) {
+$writeFile.WriteLine("function shipsList() {")
+$writeFile.WriteLine("`tvar ships = [")
+while ($null -ne ($line = $readFile.ReadLine())) {
     if ($line -match "^(.*)\s*Edit$") {
         $s = "`t`t// " + $Matches[1]
         $writeFile.WriteLine($s)
@@ -22,8 +22,9 @@ while (($line = $readFile.ReadLine()) -ne $null) {
         $writeFile.WriteLine($s)
     }
 }
-$s = "`t];`n`treturn ships`n}"
-$writeFile.WriteLine($s)
+$writeFile.WriteLine("`t];")
+$writeFile.WriteLine("`treturn ships")
+$writeFile.WriteLine("}")
 
 $readFile.Close()
 $writeFile.Close()
