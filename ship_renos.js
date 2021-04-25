@@ -14,8 +14,10 @@ function body(ship) {
 	param.add(ship.slotParam);
 	param.subtract(ship.param);
 	var s = param.karyoku + param.raisou + param.taiku + param.soukou;
-
-	return toComparable([ s | 0 ]);
+	if ( s <= 0 )  {
+		s = 0;
+	}
+	return toComparable([ s ]);
 }
 
 function end() { }

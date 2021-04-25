@@ -14,38 +14,17 @@ function body(ship)
 		case "長門改二":
 			 s = "◯◯";
 			 break;
-		// 水上機母艦
-		case "千歳":
-		case "千歳改":
-		case "千歳甲":
-			 s = "◯◯";
+		case "陸奥改二":
+			 s = "×◯";
 			 break;
-		case "千代田":
-		case "千代田改":
-		case "千代田甲":
-			 s = "◯◯";
-			 break;
-		case "瑞穂":
-		case "瑞穂改":
-			 s = "◯◯";
-			 break;
-		case "秋津洲":
-			 s = "××";
-			 break;
-		case "秋津洲改":
-			 s = "◯◯";
-			 break;
-		case "神威改":
-			 s = "◯◯";
-			 break;
-		case "Commandant Teste":
-			 s = "××";
-			 break;
-		case "Commandant Teste改":
-			 s = "◯◯";
-			 break;
-		// 軽巡洋艦
+		// 軽巡洋艦 兵装実験軽巡 軽(航空)巡洋艦
 		case "龍田改二":
+			 s = "◯◯";
+			 break;
+		case "球磨改二":
+			 s = "××";
+			 break;
+		case "球磨改二丁":
 			 s = "◯◯";
 			 break;
 		case "多摩改二":
@@ -60,6 +39,15 @@ function body(ship)
 		case "阿武隈改二":
 			 s = "◯◯";
 			 break;
+		case "夕張改二特":
+			 s = "◯◯";
+			 break;
+		case "能代改二":
+			 s = "×◯";
+			 break;
+		case "Gotland andra":
+			 s = "◯×";
+			 break;
 		// 駆逐艦
 		case "睦月改二":
 			 s = "◯×";
@@ -73,14 +61,23 @@ function body(ship)
 		case "文月改二":
 			 s = "◯◯";
 			 break;
+		case "三日月改":
+			 s = "◯×";
+			 break;
 		case "Верный":
 			 s = "◯◯";
+			 break;
+		case "有明改":
+			 s = "◯×";
 			 break;
 		case "白露改二":
 			 s = "×◯";
 			 break;
 		case "村雨改二":
 			 s = "◯×";
+			 break;
+		case "海風改二":
+			 s = "◯◯";
 			 break;
 		case "江風改二":
 			 s = "◯×";
@@ -110,65 +107,79 @@ function body(ship)
 		case "黒潮改二":
 			 s = "×◯";
 			 break;
-		// 補給艦
-		case "速吸":
-			 s = "××";
+		case "雪風改二":
+			 s = "×◯";
 			 break;
-		case "速吸改":
+		case "巻雲改二":
+			 s = "◯×";
+			 break;
+		case "風雲改二":
+			 s = "×◯";
+			 break;
+		case "沖波改二":
+			 s = "×◯";
+			 break;
+		case "朝霜改二":
+			 s = "×◯";
+			 break;
+		// 水上機母艦
+		case "神威改":
 			 s = "◯◯";
 			 break;
+		case "千歳":
+		case "千歳改":
+		case "千歳甲":
+			 s = "◯◯";
+			 break;
+		case "千代田":
+		case "千代田改":
+		case "千代田甲":
+			 s = "◯◯";
+			 break;
+		case "瑞穂":
+		case "瑞穂改":
+			 s = "◯◯";
+			 break;
+		case "日進":
+			 s = "◯×";
+			 break;
+		case "日進改":
+		case "日進改甲":
+			 s = "◯◯";
+			 break;
+		case "秋津洲":
+			 s = "××";
+			 break;
+		case "秋津洲改":
+			 s = "◯◯";
+			 break;
+		case "Commandant Teste":
+			 s = "××";
+			 break;
+		case "Commandant Teste改":
+			 s = "◯◯";
+			 break;
+		// 補給艦
 		case "神威":
 			 s = "××";
 			 break;
 		case "神威改母":
 			 s = "◯◯";
 			 break;
+		case "速吸":
+			 s = "××";
+			 break;
+		case "速吸改":
+			 s = "◯◯";
+			 break;
 		// 揚陸艦
+		case "神州丸":
+		case "神州丸改":
+			 s = "◯◯";
+			 break;
 		case "あきつ丸":
 		case "あきつ丸改":
 			 s = "◯◯";
-			 break;
-		// 潜水艦/潜水空母
-		case "まるゆ改":
-			 s = "×◯";
-			 break;
-		case "伊168":
-		case "伊168改":
-			 s = "×◯";
-			 break;
-		case "伊19":
-		case "伊19改":
-			 s = "×◯";
-			 break;
-		case "伊58":
-		case "伊58改":
-			 s = "×◯";
-			 break;
-		case "伊8":
-		case "伊8改":
-			 s = "×◯";
-			 break;
-		case "U-511":
-			 s = "×◯";
-			 break;
-		case "呂500":
-			 s = "×◯";
-			 break;
-		case "伊13":
-		case "伊13改":
-			 s = "×◯";
-			 break;
-		case "伊14":
-		case "伊14改":
-			 s = "×◯";
-			 break;
-		case "伊401":
-		case "伊401改":
-			 s = "×◯";
-			 break;
-		case "伊400":
-		case "伊400改":
-			 s = "×◯";
 			 break;
 	}
 	return toComparable([s]);

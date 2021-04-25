@@ -19,25 +19,31 @@ $writeFile.WriteLine("`tvar name = ship.name;")
 $writeFile.WriteLine("`tswitch (name)")
 $writeFile.WriteLine("`t{")
 
+$tmp = ""
 while ($null -ne ($line = $readFile.ReadLine())) {
-    $cell = $line.Split("`t")
-    if ($cell.Length -eq 5 -or ($cell.Length -eq 4 -and $cell[3] -ne "編集" )) {
-        $writeFile.WriteLine("`t`t// " + $cell[0])
-        $s1 = $cell[1]
-        $s2 = $cell[2] + $cell[3]
+    $cell = ($tmp + $line).Split("`t")
+    if ($cell.Length -eq 1) {
+        $tmp += $Line + " "
     } else {
-        $s1 = $cell[0]
-        $s2 = $cell[1] + $cell[2]
-    }
-    $n = ""
-    foreach($i in  $s1.Split("/") ){
-        $writeFile.WriteLine("`t`tcase `"$n$i`":")
-        if ($n -eq "") {
-            $n = $i
+        $tmp = ""
+        if ($cell.Length -eq 5 -or ($cell.Length -eq 4 -and $cell[3] -ne "編集" )) {
+            $writeFile.WriteLine("`t`t// " + $cell[0])
+            $s1 = $cell[1]
+            $s2 = $cell[2] + $cell[3]
+        } else {
+            $s1 = $cell[0]
+            $s2 = $cell[1] + $cell[2]
         }
+        $n = ""
+        foreach($i in  $s1.Split("/") ){
+            $writeFile.WriteLine("`t`tcase `"$n$i`":")
+            if ($n -eq "") {
+                $n = $i
+            }
+        }
+        $writeFile.WriteLine("`t`t`t s = `"$s2`";")
+        $writeFile.WriteLine("`t`t`t break;")
     }
-    $writeFile.WriteLine("`t`t`t s = `"$s2`";")
-    $writeFile.WriteLine("`t`t`t break;")
 }
 $writeFile.WriteLine("`t}")
 $writeFile.WriteLine("`treturn toComparable([s]);")

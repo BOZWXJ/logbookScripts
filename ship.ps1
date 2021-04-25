@@ -9,7 +9,7 @@ $writeFile = New-Object System.IO.StreamWriter($name, $false, [System.Text.Encod
 $writeFile.WriteLine("function shipsList() {")
 $writeFile.WriteLine("`tvar ships = [")
 while ($null -ne ($line = $readFile.ReadLine())) {
-    if ($line -match "^(.*)\s*Edit$") {
+    if ($line -match "^(.*)\s*  $") {
         $s = "`t`t// " + $Matches[1]
         $writeFile.WriteLine($s)
     }

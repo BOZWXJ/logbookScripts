@@ -189,28 +189,28 @@ function body(ship)
 			break;
 		// 重巡洋艦
 		case "古鷹":
-			s = "65 2号";
+			s = "65 2号連装砲";
 			break;
 		case "加古":
-			s = "65 2号";
+			s = "65 2号連装砲";
 			break;
 		case "青葉":
 			s = "";
 			break;
 		case "衣笠":
-			s = "55 3号";
+			s = "55 3号連装砲";
 			break;
 		case "妙高":
-			s = "70 2号";
+			s = "70 2号連装砲";
 			break;
 		case "那智":
-			s = "65 2号";
+			s = "65 2号連装砲";
 			break;
 		case "足柄":
-			s = "65 2号×3";
+			s = "65 2号連装砲×3";
 			break;
 		case "羽黒":
-			s = "65 2号";
+			s = "65 2号連装砲";
 			break;
 		case "高雄":
 			s = "";
@@ -219,22 +219,22 @@ function body(ship)
 			s = "";
 			break;
 		case "摩耶":
-			s = "";
+			s = "75 94式高射";
 			break;
 		case "鳥海":
-			s = "";
+			s = "65設 22号改四";
 			break;
 		case "最上":
 			s = "10 瑞雲";
 			break;
 		case "三隈":
-			s = "30 3号";
+			s = "30 3号連装砲";
 			break;
 		case "鈴谷":
 			s = "";
 			break;
 		case "熊野":
-			s = "35 22号";
+			s = "";
 			break;
 		case "利根":
 			s = "";
@@ -269,25 +269,25 @@ function body(ship)
 			s = "";
 			break;
 		case "北上":
-			s = "";
+			s = "50 五連装";
 			break;
 		case "大井":
-			s = "";
+			s = "50 五連装";
 			break;
 		case "木曾":
-			s = "";
+			s = "65 五連装";
 			break;
 		case "長良":
 			s = "";
 			break;
 		case "五十鈴":
-			s = "";
+			s = "50 22号電探";
 			break;
 		case "名取":
 			s = "";
 			break;
 		case "由良":
-			s = "";
+			s = "77設 水偵11乙";
 			break;
 		case "鬼怒":
 			s = "";
@@ -299,7 +299,7 @@ function body(ship)
 			s = "";
 			break;
 		case "川内":
-			s = "";
+			s = "60 夜偵";
 			break;
 		case "神通":
 			s = "";
@@ -308,10 +308,10 @@ function body(ship)
 			s = "";
 			break;
 		case "阿賀野":
-			s = "";
+			s = "35 22号電探";
 			break;
 		case "能代":
-			s = "";
+			s = "35 22号電探";
 			break;
 		case "矢矧":
 			s = "";
@@ -333,7 +333,7 @@ function body(ship)
 		// 駆逐艦
 		// 神風型
 		case "神風":
-			s = "";
+			s = "50 22号電探";
 			break;
 		case "朝風":
 			s = "";
@@ -383,7 +383,7 @@ function body(ship)
 			break;
 		// 吹雪型
 		case "吹雪":
-			s = "";
+			s = "70 94式高射";
 			break;
 		case "白雪":
 			s = "";
@@ -459,7 +459,7 @@ function body(ship)
 			break;
 		// 白露型
 		case "白露":
-			s = "";
+			s = "77戦 22号改四";
 			break;
 		case "時雨":
 			s = "";
@@ -471,35 +471,35 @@ function body(ship)
 			s = "";
 			break;
 		case "春雨":
-			s = "";
+			s = "30 1.27cmB";
 			break;
 		case "五月雨":
 			s = "";
 			break;
 		case "海風":
-			s = "";
+			s = "30 12.7cmB";
 			break;
 		case "山風":
 			s = "";
 			break;
 		case "江風":
-			s = "";
+			s = "30 22号電探";
 			break;
 		case "涼風":
 			s = "";
 			break;
 		// 朝潮型
 		case "朝潮":
-			s = "";
+			s = "20 10cm高角";
 			break;
 		case "大潮":
-			s = "";
+			s = "20 10cm高角";
 			break;
 		case "満潮":
-			s = "";
+			s = "20 10cm高角";
 			break;
 		case "荒潮":
-			s = "";
+			s = "20 10cm高角";
 			break;
 		case "朝雲":
 			s = "";
@@ -508,32 +508,32 @@ function body(ship)
 			s = "";
 			break;
 		case "霰":
-			s = "";
+			s = "20 10cm高角";
 			break;
 		case "霞":
-			s = "";
+			s = "20 10cm高角";
 			break;
 		// 陽炎型
 		case "陽炎":
-			s = "";
+			s = "20 10cm高角";
 			break;
 		case "不知火":
-			s = "";
+			s = "20 10cm高角";
 			break;
 		case "黒潮":
-			s = "";
+			s = "20 10cm高角";
 			break;
 		case "親潮":
 			s = "";
 			break;
 		case "初風":
-			s = "";
+			s = "20 10cm高角";
 			break;
 		case "雪風":
 			s = "";
 			break;
 		case "天津風":
-			s = "";
+			s = "20 三式探信";
 			break;
 		case "時津風":
 			s = "";
@@ -545,7 +545,7 @@ function body(ship)
 			s = "";
 			break;
 		case "浜風":
-			s = "";
+			s = "30 22号電探";
 			break;
 		case "谷風":
 			s = "";
@@ -560,57 +560,57 @@ function body(ship)
 			s = "";
 			break;
 		case "舞風":
-			s = "";
+			s = "20 10cm高角";
 			break;
 		case "秋雲":
 			s = "";
 			break;
 		// 夕雲型
 		case "夕雲":
-			s = "";
+			s = "30 22号電探";
 			break;
 		case "巻雲":
-			s = "";
+			s = "30 三式探信";
 			break;
 		case "風雲":
-			s = "";
+			s = "30 22号電探";
 			break;
 		case "長波":
-			s = "";
+			s = "30 三式探信";
 			break;
 		case "高波":
-			s = "";
+			s = "30 22号電探";
 			break;
 		case "藤波":
-			s = "";
+			s = "30 22号電探";
 			break;
 		case "浜波":
-			s = "";
+			s = "30 22号電探";
 			break;
 		case "沖波":
-			s = "";
+			s = "30 22号電探";
 			break;
 		case "朝霜":
 			s = "";
 			break;
 		case "早霜":
-			s = "";
+			s = "30 22号電探";
 			break;
 		case "清霜":
-			s = "";
+			s = "30 22号電探 三式探信";
 			break;
 		// 秋月型
 		case "秋月":
-			s = "";
+			s = "40 10cm+高射";
 			break;
 		case "照月":
-			s = "";
+			s = "40 10cm+高射";
 			break;
 		case "涼月":
-			s = "";
+			s = "55 10cm+高射";
 			break;
 		case "初月":
-			s = "";
+			s = "40 10cm+高射";
 			break;
 		// 島風型
 		case "島風":
